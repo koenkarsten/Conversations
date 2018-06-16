@@ -10,6 +10,10 @@ buildscript {
     }
 }
 
+plugins {
+    id "org.sonarqube" version "2.6.2"
+}
+
 apply plugin: 'com.android.application'
 
 repositories {
@@ -22,7 +26,6 @@ repositories {
 }
 
 configurations {
-    playstoreImplementation
     freeImplementation
 }
 
@@ -31,9 +34,7 @@ ext {
 }
 
 dependencies {
-    playstoreImplementation('com.google.firebase:firebase-messaging:15.0.2') {
-        exclude group: 'com.google.firebase', module: 'firebase-core'
-    }
+
     implementation 'org.sufficientlysecure:openpgp-api:10.0'
     implementation 'com.soundcloud.android:android-crop:1.0.1@aar'
     implementation "com.android.support:support-v13:$supportLibVersion"
@@ -59,6 +60,8 @@ ext {
     travisBuild = System.getenv("TRAVIS") == "true"
     preDexEnabled = System.getProperty("pre-dex", "true")
 }
+
+
 
 android {
     compileSdkVersion 27
@@ -92,9 +95,7 @@ android {
     flavorDimensions("distribution")
 
     productFlavors {
-        playstore {
-            dimension "distribution"
-        }
+
         free {
             dimension "distribution"
         }
