@@ -293,6 +293,7 @@
   <string name="check_x_filesize_on_host">%1$s-Größe auf %2$s prüfen</string>
   <string name="message_options">Nachrichtenoptionen</string>
   <string name="quote">Zitat</string>
+  <string name="paste_as_quote">Als Zitat einfügen</string>
   <string name="copy_original_url">Original-URL kopieren</string>
   <string name="send_again">Erneut senden</string>
   <string name="file_url">Datei-URL</string>
@@ -711,4 +712,7 @@
   <string name="pref_use_share_location_plugin_summary">Verwende das Plugin zum Standort teilen anstelle der eingebauten Karte</string>
   <string name="copy_link">Internetadresse kopieren</string>
   <string name="copy_jabber_id">Jabber-ID kopieren</string>
+  <string name="p1_s3_filetransfer">HTTP-Dateifreigabe für S3</string>
+  <string name="pref_start_search">Direkte Suche </string>
+  <string name="pref_start_search_summary">Beim Dialog \'Unterhaltung beginnen\' Tastatur öffnen und den Cursor im Suchfeld platzieren</string>
 </resources>

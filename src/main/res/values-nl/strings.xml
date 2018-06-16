@@ -293,6 +293,7 @@
   <string name="check_x_filesize_on_host">Bestandsgrootte van %1$s op %2$s controleren</string>
   <string name="message_options">Berichtopties</string>
   <string name="quote">Citeren</string>
+  <string name="paste_as_quote">Plakken als citaat</string>
   <string name="copy_original_url">Oorspronkelijke URL kopiëren</string>
   <string name="send_again">Opnieuw versturen</string>
   <string name="file_url">Bestands-URL</string>
@@ -708,7 +709,10 @@
   <string name="gif">GIF</string>
   <string name="view_conversation">Gesprek bekijken</string>
   <string name="pref_use_share_location_plugin">Plug-in voor delen van locatie</string>
-  <string name="pref_use_share_location_plugin_summary">Gebruik de Plug-in voor delen van locatie in plaats van de ingebouwde kaart</string>
+  <string name="pref_use_share_location_plugin_summary">Gebruik de ‘Plug-in voor delen van locatie’ in plaats van de ingebouwde kaart</string>
   <string name="copy_link">Webadres kopiëren</string>
   <string name="copy_jabber_id">Jabber-ID kopiëren</string>
+  <string name="p1_s3_filetransfer">Bestanden delen via HTTP voor S3</string>
+  <string name="pref_start_search">Rechtstreeks zoeken</string>
+  <string name="pref_start_search_summary">Open het toetsenbord op het scherm ‘Gesprek starten’ en plaats de cursor in het zoekveld</string>
 </resources>
