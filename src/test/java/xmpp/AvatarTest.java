@@ -10,7 +10,7 @@ public class AvatarTest {
     private final Avatar avatar = new Avatar();
 
     @Test
-    public void test_isAvatarDisableRequest() {
+    public void isAvatarDisableRequest() {
 
         item.addChild("item");
         item.addChild("metadata");

@@ -14,7 +14,7 @@ public class AccountTest {
     private final Account account = new Account(jid, password);
 
     @Test
-    public void test_removeAvatar() {
+    public void removeAvatar() {
 
         // Set avatar, and check if it is set
         account.setAvatar(avatar);

@@ -14,7 +14,7 @@ public class ContactTest {
     private final Contact contact = new Contact(jid);
 
     @Test
-    public void test_removeAvatar() {
+    public void removeAvatar() {
 
         // Set avatar, and check if it is set
         contact.setAvatar(avatar);

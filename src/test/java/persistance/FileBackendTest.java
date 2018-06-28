@@ -12,7 +12,7 @@ public class FileBackendTest {
     private final String deleted_avatar = null;
 
     @Test
-    public void test_deleteAndisAvatarCached() {
+    public void deleteAndisAvatarCached() {
 
         Assert.assertTrue(fileBackend.isAvatarCached(avatar));
 

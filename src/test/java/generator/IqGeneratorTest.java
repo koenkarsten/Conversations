@@ -13,7 +13,7 @@ public class IqGeneratorTest {
     private final Avatar avatar = null;
 
     @Test
-    public void test_publishAvatarMetadata() {
+    public void publishAvatarMetadata() {
 
         IqPacket result = iqGenerator.publishAvatarMetadata(avatar);
         Assert.assertNull(result.findChild("pubsub").findChild("publish").getChildren());
